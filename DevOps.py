@@ -14,5 +14,9 @@ def hello():
 def test():
     return "This is a DevOps test"
 
+@app.route('/update')
+def update():
+    return "We will update the program."
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=9999)
