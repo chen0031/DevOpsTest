@@ -18,6 +18,10 @@ def test():
 def update():
     return "We will update the program."
 
+"""
+A test.
+"""
+
 @app.route('/divide')
 def devide():
     return "This is a divide function."
