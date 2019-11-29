@@ -22,10 +22,11 @@ def update():
 def devide():
     return "This is a divide function."
 
-#@app.route('/reduce')
-#def add():
-#    a = 1 - 1
-#    return "add a new reduce funtion."
+
+@app.route('/reduce')
+def add():
+    a = 1 - 1
+    return "add a new reduce funtion."
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=9999)
