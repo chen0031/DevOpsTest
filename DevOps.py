@@ -34,7 +34,10 @@ def reduce():
 """
 This is a test
 """
-
+@app.route('/add')
+def add():
+    a = 1 + 1
+    return "This is an add function."
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=10000)
