@@ -29,10 +29,12 @@ def devide():
 
 @app.route('/reduce')
 def reduce():
-    a = 1 - 1
+    b = 1 - 1
     return "add a new reduce funtion."
 """
 This is a test
 """
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=10000)
